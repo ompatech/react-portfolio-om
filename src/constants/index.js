@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate developer with a strong interest in Artifical Intelligence and Quantum Computing. With a focus on cutting-edge technologies, I am continuously honing my skills in both software development and quantum algorithms. My goal is to leverage my expertise in these fields to create innovative solutions that push the boundaries of technology and contribute to the future of computing.`;
+export const HERO_CONTENT = `I am a passionate developer with a strong interest in Artificial Intelligence and Quantum Computing. With a focus on cutting-edge technologies, I am continuously honing my skills in both software development and quantum computing. My goal is to leverage my expertise in these fields to create innovative solutions that push the boundaries of technology and contribute to the future of computing.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile student with a passion for exploring Artificial Intelligence and Quantum Computing. My journey in these fields began with a deep curiosity for the potential of AI and the principles of quantum mechanics, which has evolved into a commitment to advancing these cutting-edge technologies. As I continue to expand my knowledge in AI and quantum computing, I thrive in collaborative environments, enjoying the challenge of solving complex problems and contributing to innovative solutions. Outside of my studies, I stay active in exploring new technological trends and engaging with the AI and Quantum communities.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile second-year student at the University of Toronto with a passion for Artificial Intelligence and Quantum Computing. My journey began with a deep curiosity about the transformative potential of AI and the principles of quantum mechanics, evolving into a commitment to advancing these cutting-edge technologies. I am actively engaged in innovative projects that push the boundaries of technology and scientific understanding. Thriving in collaborative environments, I enjoy tackling complex problems and contributing to impactful solutions. Outside of my studies, I stay engaged with the latest technological trends and actively participate in the AI and Quantum communities. I am eager to connect with professionals and researchers in these fields and explore new opportunities for collaboration.`;
 
 export const EXPERIENCES = [
   {
@@ -64,7 +64,7 @@ export const PROJECTS = [
     title: "Portfolio Website",
     image: project4,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A personal portfolio website showcasing projects, skills, and contact form using EmailJs.",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
 ];
