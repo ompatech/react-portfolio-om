@@ -1,11 +1,11 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate developer with a strong interest in Artifical Intelligence and Quantum Computing. With a focus on cutting-edge technologies, I am continuously honing my skills in both software development and quantum algorithms. My goal is to leverage my expertise in these fields to create innovative solutions that push the boundaries of technology and contribute to the future of computing.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile student with a passion for exploring Artificial Intelligence and Quantum Computing. My journey in these fields began with a deep curiosity for the potential of AI and the principles of quantum mechanics, which has evolved into a commitment to advancing these cutting-edge technologies. As I continue to expand my knowledge in AI and quantum computing, I thrive in collaborative environments, enjoying the challenge of solving complex problems and contributing to innovative solutions. Outside of my studies, I stay active in exploring new technological trends and engaging with the AI and Quantum communities.`;
 
 export const EXPERIENCES = [
   {
@@ -40,37 +40,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Sentiment Analysis for Predicting Stock Trend",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A deep learning project that analyzes the sentiment of tweets and news articles to predict stock trends (up or down). The project includes data preprocessing, sentiment analysis using FinBERT and RoBERTa models, and predictive modeling with PyTorch.",
+    technologies: ["Python", "PyTorch", "Scikit-learn", "Pandas", "Matplotlib", ],
   },
   {
-    title: "Task Management App",
+    title: "Quantum Computing Simulations and Qiskit Summer School",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "This project highlights techniques from the Qiskit Summer School, covering quantum circuit transpilation, execution on noisy hardware, and advanced topics like quantum combinatorial optimization and Hamiltonian dynamics. It also explores quantum machine learning, demonstrating how quantum algorithms can enhance traditional ML methods.",
+    technologies: ["Python", "Qiskit", "IBM Quantum Platform"],
+  },
+  {
+    title: "Blocky Game",
+    image: project3,
+    description:
+      "Blocky Game is a customizable block-based game where players can create, modify, and explore dynamic environments. It highlights game structure design, including level creation, player interaction, and mechanics, with a focus on user experience and gameplay.",
+    technologies: ["Python", "PyGame"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
 ];
 
 export const CONTACT = {
-  address: "85 Charles Street West, Toronto, Ontario, M5S 1k5",
+  address: "85 Charles Street West, Toronto, Ontario, M5S 1K5",
   phoneNo: "+1 289-828-6792",
   email: "ompatel.patel@mail.utoronto.ca",
 };
