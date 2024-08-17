@@ -7,3 +7,6 @@
 :root {
   font-family: 'Inter', sans-serif;
 }
+body {
+  font-weight: 400; /* or any consistent weight you prefer */
+}
