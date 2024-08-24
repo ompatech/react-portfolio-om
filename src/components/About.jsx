@@ -21,7 +21,7 @@ const About = () => {
                     </div>
                     <div className="flex justify-center mt-6">
                         <a 
-                            href="/Om_Resume.pdf" 
+                            href="/Om_Patel_General.pdf" 
                             download 
                             className="flex items-center bg-gradient-to-r from-purple-600 to-blue-500 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-105 duration-300">
                             Download Resume
