@@ -45,6 +45,7 @@ export const PROJECTS = [
     description:
       "A deep learning project that analyzes the sentiment of tweets and news articles to predict stock trends (up or down). The project includes data preprocessing, sentiment analysis using FinBERT and RoBERTa models, and predictive modeling with PyTorch.",
     technologies: ["Python", "PyTorch", "Scikit-learn", "Pandas", "Matplotlib", ],
+    link: "https://github.com/ompatech/Sentiment-Analysis-and-Stock-Market"
   },
   {
     title: "Quantum Computing Simulations and Qiskit Summer School",
@@ -66,6 +67,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact form using EmailJs.",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
+    link: "https://github.com/ompatech/react-portfolio-om"
   },
 ];
 

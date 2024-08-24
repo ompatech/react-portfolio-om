@@ -11,11 +11,11 @@ const Navbar = () => {
       <h1 className="mx-2 w-10 text-3xl">Op</h1>
         {/* <img className="mx-2 w-10" src={logo} alt="logo" /> */}
     </div>
-    <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="https://www.linkedin.com/in/om-patel-0608b326b" target="_blank" rel="noopener noreferrer">
+    <div className="m-8 flex items-center justify-center gap-4 text-2xl ">
+        <a className=" hover:shadow-xl transition transform hover:scale-105 duration-300" href="https://www.linkedin.com/in/om-patel-0608b326b" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
         </a>
-        <a href="https://github.com/ompatech" target="_blank" rel="noopener noreferrer">
+        <a className= " hover:shadow-xl transition transform hover:scale-105 duration-3000" href="https://github.com/ompatech" target="_blank" rel="noopener noreferrer">
             <FaGithub />
         </a>
         
