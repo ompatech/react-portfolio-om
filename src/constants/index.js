@@ -53,6 +53,7 @@ export const PROJECTS = [
     description:
       "This project highlights techniques from the Qiskit Summer School, covering quantum circuit transpilation, execution on noisy hardware, and advanced topics like quantum combinatorial optimization and Hamiltonian dynamics. It also explores quantum machine learning, demonstrating how quantum algorithms can enhance traditional ML methods.",
     technologies: ["Python", "Qiskit", "IBM Quantum Platform"],
+    link: "https://github.com/ompatech/Qiskit-Global-Summer-School-2024"
   },
   {
     title: "Blocky Game",
